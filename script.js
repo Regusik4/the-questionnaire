@@ -10,8 +10,8 @@ form.addEventListener("submit", async (event) => {
   const agree = document.getElementById("agree").checked;
 
   const data = {
-    name: name,
-    secondName: secondName,
+    name,
+    secondName,
     phone,
     email,
     agree,
