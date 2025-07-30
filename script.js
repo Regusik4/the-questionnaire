@@ -12,9 +12,9 @@ form.addEventListener("submit", async (event) => {
   const data = {
     name: name,
     secondName: secondName,
-    phone: phone,
-    email: email,
-    agree: agree,
+    phone,
+    email,
+    agree,
   };
 
   try {
@@ -23,7 +23,7 @@ form.addEventListener("submit", async (event) => {
       headers: {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "Bearer: YOUR_GITHUB_NICKNAME", 
+        "Authorization": "Bearer: Regusik4", 
       },
       body: JSON.stringify(data),
     });
